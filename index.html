@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#7a2d2d" />
+  <title>BAR LA PLAZA | Carta</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <div class="brand-mark" aria-hidden="true">BLP</div>
+      <div>
+        <p class="eyebrow">CARTA · DESAYUNOS · RACIONES · BEBIDAS</p>
+        <h1>BAR LA PLAZA</h1>
+        <p class="subtitle">Sabor de siempre, en el corazón del barrio.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="toolbar" aria-label="Herramientas de la carta">
+      <label class="search-wrap">
+        <span>Buscar</span>
+        <input id="searchInput" type="search" placeholder="Ej. calamares, café, bocadillo..." />
+      </label>
+      <button id="printBtn" class="btn btn-primary" type="button">Exportar / Guardar PDF</button>
+    </section>
+
+    <div id="menuContainer" class="menu-grid"></div>
+
+    <section class="allergens">
+      <h2>Información de alérgenos</h2>
+      <p>Consulta con nuestro personal si tienes alguna alergia o intolerancia alimentaria. Podemos informarte sobre los ingredientes y alérgenos de cada producto.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>BAR LA PLAZA · Carta digital</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
