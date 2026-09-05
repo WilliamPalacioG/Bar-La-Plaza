@@ -37,8 +37,8 @@ const MENU = [
   {
     title: "Bocadillos",
     items: [
-      { name: "Cinta de Lomo / Panceta / Bacon / Magreta", price: 4.50 },
-      { name: "Atún con Tomate / Caballa con Tomate", price: 4.50 },
+      { name: "Cinta de Lomo / Panceta / Bacon ", price: 4.50 },
+      { name: "Atún con Tomate ", price: 4.50 },
       { name: "Tortilla Francesa / Tortilla de Patata", price: 4.00 },
       { name: "Calamares", price: 5.50 },
       { name: "Sándwich Mixto (Jamón y Queso)", price: 3.20 }   
@@ -50,6 +50,7 @@ const MENU = [
       { name: "Oreja a la Plancha", price: 9.00 },
       { name: "Calamares", price: 12.00 },
       { name: "Alitas de Pollo (6 unidades)", price: 10.00 },
+      { name: "Platico con Patatas Fritas y Salsas", price: 2.50 },
       { name: "Huevos Rotos", description: "Patatas fritas con Huevos y Jamon.",  price: 12.00 }
     ]
   },
@@ -68,8 +69,9 @@ const MENU = [
   {
     title: "Bebidas y cafetería",
     items: [
-      { name: "Alhambra / Cerveza 00 y tostada", price: 2.60 },
-      { name: "Refrescos / Tercio", description: "Cerveza", price: 2.50 },
+      { name: "Alhambra / Cerveza 00 / Estrella Galicia Tostada", price: 2.70 },
+      { name: "Tercio Mahou 5 Estrellas / Tercio Mahou", price: 2.70 },
+      { name: "Refrescos", price: 2.50 },
       { name: "Zumos", price: 2.00 },
       { name: "Botellín", price: 1.60 },
       { name: "Jarra de Cerveza", price: 3.50 },
