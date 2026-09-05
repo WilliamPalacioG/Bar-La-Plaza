@@ -50,7 +50,6 @@ const MENU = [
       { name: "Oreja a la Plancha", price: 9.00 },
       { name: "Calamares", price: 12.00 },
       { name: "Alitas de Pollo (6 unidades)", price: 10.00 },
-      { name: "Patatas Bravas", price: 6.00 },
       { name: "Huevos Rotos", description: "Patatas fritas con Huevos y Jamon.",  price: 12.00 }
     ]
   },
