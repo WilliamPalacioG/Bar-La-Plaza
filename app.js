@@ -13,8 +13,8 @@ const MENU = [
   {
     title: "Desayunos y meriendas",
     items: [
-      { name: "Tostada con Tomate", price: 1.70 },
-      { name: "Tostada con Mantequilla y Mermelada", price: 1.70 },
+      { name: "Tostada con Tomate y aceite de oliva virgen", price: 2.00 },
+      { name: "Tostada con Mantequilla y Mermelada", price: 2.00 },
       { name: "Tostada con Tomate y Jamón Serrano", price: 3.80 },
       { name: "Tostada con Tomate y Atún", price: 3.80 },
       { name: "Tostada con Tortilla Francesa", price: 3.50 },
