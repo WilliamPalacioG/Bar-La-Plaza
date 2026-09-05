@@ -15,21 +15,23 @@ const MENU = [
     items: [
       { name: "Tostada con Tomate y aceite de oliva virgen", price: 2.00 },
       { name: "Tostada con Mantequilla y Mermelada", price: 2.00 },
-      { name: "Tostada con Tomate y Jamón Serrano", price: 3.80 },
-      { name: "Tostada con Tomate y Atún", price: 3.80 },
-      { name: "Tostada con Tortilla Francesa", price: 3.50 },
-      { name: "Croissant con Jamón York y Queso", price: 3.20 },
-      { name: "Croissant con Mantequilla y Mermelada", price: 2.50 },
-      { name: "Café con leche y Croissant", price: 3.20 },
-      { name: "Café con leche y Napolitana de Chocolate", price: 3.20 },
-      { name: "Café con leche y Magdalena", price: 2.10 },
-      { name: "Desayuno “La Plaza”", description: "Huevo al gusto, bacon, salchichas, tostada, mermelada, mantequilla y bebida caliente.", price: 6.00 }
+      { name: "Tostada con Tomate y Jamón Serrano", price: 3.50 },
+      { name: "Tostada con Tomate y Cafe con Leche", price: 3.50 },
+      { name: "Tostada con Tomate, aguacate y Jamón Serrano", price: 4.00 },
+      { name: "Tostada con Tomate y Atún", price: 3.00 },
+      { name: "Tostada con Tortilla Francesa", price: 3.00 },
+      { name: "Croissant ", price: 1.80 },
+      { name: "Croissant con Jamón York y Queso", price: 3.00 },
+      { name: "Croissant con Mantequilla y Mermelada", price: 2.80 },
+      { name: "Café con leche y Croissant", price: 3.30 },
+      { name: "Pincho de Tortilla y Cafe con Leche", price: 3.50 },
+      { name: "Magdalena", price: 1.80 },
     ]
   },
   {
     title: "Hamburguesas",
     items: [
-      { name: "Hamburguesa de Ternera Especial", description: "Tomate, lechuga, bacon, huevo, salsa de piña, kétchup, mayonesa y patatas.", price: 10.00 }
+      { name: "Hamburguesa La Plaza", description: "Carne de Angus 200 gr, queso, bacon, huevo, salsa hawaiana, salsa rosada, acompañada con patatas fritas.", price: 10.50 }
     ]
   },
   {
@@ -39,7 +41,7 @@ const MENU = [
       { name: "Atún con Tomate / Caballa con Tomate", price: 4.50 },
       { name: "Tortilla Francesa / Tortilla de Patata", price: 4.00 },
       { name: "Calamares", price: 5.50 },
-      { name: "Sándwich Mixto (Jamón y Queso)", price: 3.20 }
+      { name: "Sándwich Mixto (Jamón y Queso)", price: 3.20 }   
     ]
   },
   {
@@ -49,18 +51,19 @@ const MENU = [
       { name: "Calamares", price: 12.00 },
       { name: "Alitas de Pollo (6 unidades)", price: 10.00 },
       { name: "Patatas Bravas", price: 6.00 },
-      { name: "Huevos con Jamón y Patatas Fritas", price: 12.00 }
+      { name: "Huevos Rotos", description: "Patatas fritas con Huevos y Jamon.",  price: 12.00 }
     ]
   },
   {
     title: "Platos combinados",
-    note: "Acompañados de patatas fritas y 2 huevos",
     items: [
-      { name: "Cinta de Lomo con Huevos", price: 8.00 },
-      { name: "Panceta con Huevos", price: 8.00 },
-      { name: "Bacon con Huevos", price: 8.00 },
-      { name: "Pechuga de Pollo a la Plancha con Huevos", price: 8.50 },
-      { name: "2 Mini Cachopos de Cerdo con Huevos", price: 8.50 }
+      { name: "Cinta de Lomo con Huevos y Patatas Fritas", price: 9.00 },
+      { name: "Panceta con Huevos y Patatas Fritas", price: 9.00 },
+      { name: "Bacon con Huevos y Patatas Fritas", price: 9.00 },
+      { name: "Pechuga de Pollo a la Plancha con Huevos y Patatas Fritas", price: 10.00 },
+      { name: "Fingers de Pollo", description: "6 Pechuguitas de Pollo Apanadas con Patatas Fritas.", price: 8.00 },
+      { name: "Salchipapa", description: "Patatas con Salchichas y Salsas.", price: 6.00 },
+      { name: "SalchiPork", description: "Patatas con Salchichas, Panceta y Salsas.", price: 8.00 }
     ]
   },
   {
